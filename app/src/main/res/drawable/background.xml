@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 圓角 -->
+    <corners android:radius="15dp"/>
+
+    <!-- 漸層 -->
+    <gradient
+        android:startColor="#00FF00"
+        android:endColor="#FFFFFF"
+        android:angle="0"/> <!-- 從何角度開始 -->
+
+    <!-- 劃框線 -->
+    <stroke
+        android:color="#FF0000"
+        android:width="3dp"
+        android:dashGap="5dp"
+        android:dashWidth="20dp"/>
+</shape>
